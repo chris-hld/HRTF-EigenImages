@@ -1,0 +1,56 @@
+# Call:  plt.style.use(['CFH', ...])
+
+# Figure
+figure.dpi       : 100
+
+# Lines
+lines.linewidth: 2
+lines.solid_capstyle: butt  # end right at the data points
+lines.antialiased : True    # render lines in antialiased (no jaggies)
+
+# Patches
+patch.linewidth: 0.5
+patch.facecolor: 348ABD  # blue
+patch.edgecolor: EEEEEE
+patch.antialiased : True    # render patches in antialiased (no jaggies)
+
+# Legend
+legend.fancybox: true  # round edges
+legend.framealpha    : 0.6
+
+# Axis
+axes.facecolor: f8f8f8
+axes.edgecolor: c3c3c3
+axes.linewidth: 1.5  # edge linewidth
+axes.grid: True
+axes.titlesize: x-large
+axes.labelsize: large
+axes.labelcolor: 555555
+axes.axisbelow: True # grid/ticks are below elements (e.g., lines, text)
+
+# Rearranged: http://colorbrewer2.org/?type=qualitative&scheme=Set3&n=8
+#axes.prop_cycle: cycler('color', ['fb8072','80b1d3','fdb462','b3de69','fccde5','8dd3c7','ffffb3','bebada'])
+# http://colorbrewer2.org/?type=diverging&scheme=Spectral&n=8
+#axes.prop_cycle: cycler('color',['d53e4f','f46d43','fdae61','fee08b','e6f598','abdda4','66c2a5','3288bd'])
+# ggplot colors
+#axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '988ED5', '777777', 'FBC15E', '8EBA42', 'FFB5B8'])
+# ggplot colors rearranged
+axes.prop_cycle: cycler('color', ['E24A33', '348ABD', '8EBA42', 'FBC15E', '777777', '988ED5', 'FFB5B8'])
+# BMH colors
+#axes.prop_cycle: cycler('color', ['348ABD', 'A60628', '7A68A6', '467821', 'D55E00', 'CC79A7', '56B4E9', '009E73', 'F0E442', '0072B2'])
+
+xtick.color: 555555
+xtick.direction: out
+ytick.color: 555555
+ytick.direction: out
+
+axes.spines.left   : True   # display axis spines
+axes.spines.bottom : True
+axes.spines.top    : False
+axes.spines.right  : False
+
+# Grid
+grid.alpha : 0.8      # transparency, between 0.0 and 1.0
+grid.color: cbcbcb    # grid color
+grid.linewidth: 0.8
+grid.linestyle: :     # dotted
